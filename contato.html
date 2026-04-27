@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Contato</title>
+</head>
+<body>
+<header class="cabecalho">
+    <nav class="menu">
+        <a class="menu-link" href="index.html">HOME</a>
+        <a class="menu-link" href="eventos.html">EVENTOS</a>
+        <a class="menu-link" href="contato.html">CONTATO</a>
+
+        <div class="menu-dropdown">
+            <a class="menu-link menu-link--cursos" href="cursos.html">CURSOS</a>
+            <div class="menu-submenu">
+                <a class="menu-submenu-link" href="ads.html">Análise e Desenvolvimento de Sistemas</a>
+                <a class="menu-submenu-link" href="engprod.html">Engenharia de Produção</a>
+            </div>
+        </div>
+
+        <a class="menu-link" href="entrar.html">ENTRAR</a>
+        <a class="menu-link menu-link--sobre" href="sobre.html">SOBRE</a>
+    </nav>
+</header>
+
+<section class="topo">
+    <img class="logo-if" src="Logo.jpg" alt="">
+</section>
+
+<main class="conteudo-principal">
+    <h1>Mande uma mensagem</h1>
+
+    <form class="formulario" action="">
+        <ul class="formulario-lista">
+            <li class="formulario-item">
+                <label>Nome
+                    <input class="campo-largo" type="text" required>
+                </label>
+            </li>
+
+            <li class="formulario-item">
+                <label>E-mail
+                    <input class="campo-texto" type="email" required>
+                </label>
+            </li>
+
+            <li class="formulario-item">
+                <label>Telefone (99) 99999-9999
+                    <input class="campo-texto" type="tel" required>
+                </label>
+            </li>
+
+            <li class="formulario-item">
+                <label>Assunto
+                    <select class="campo-selecao" required>
+                        <option value=""> -- Selecione --</option>
+                        <option>Reclamação</option>
+                        <option>Sugestão</option>
+                    </select>
+                </label>
+            </li>
+
+            <li class="formulario-item">
+                <label>Mensagem
+                    <textarea class="campo-mensagem" required></textarea>
+                </label>
+            </li>
+
+            <li class="formulario-item">
+                <fieldset>
+                    <legend>Opções de Resposta</legend>
+                    <label>E-Mail</label>
+                    <input type="radio" name="contato" required>
+
+                    <label>Telefone</label>
+                    <input type="radio" name="contato" required>
+                </fieldset>
+            </li>
+        </ul>
+
+        <button class="botao botao--enviar" type="submit">Enviar</button>
+    </form>
+
+    <footer class="rodape">
+    <a class="rodape-rede" href="https://www.facebook.com/ifsppirituba/?locale=pt_BR">
+        <img src="facebook.png" alt="" width="50" height="50">
+    </a>
+    <p>IFSP - Câmpus Pirituba - Av. Mutinga, 951 - Jardim Santo Elias - CEP: 05110-000 - São Paulo/SP - Contato: (11) 2504-0100</p>
+</footer>
+</main>
+</body>
+</html>
